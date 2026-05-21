@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "login:smoke": "tsx src/smoke-login.ts",
     "members": "tsx src/index.ts",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
